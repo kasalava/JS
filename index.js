@@ -5,6 +5,7 @@
 // greet("");
 function add(num1, num2) {
   const res = num1 + num2;
-  console.log(`result:`, res);
+  return res;
 }
-add(1, 5);
+const num = add(1, 8);
+console.log(`result: ${num}`);
