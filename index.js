@@ -3,9 +3,12 @@
 //   else console.log(`привет ${name}`);
 // }
 // greet("");
-function add(num1, num2) {
-  const res = num1 + num2;
-  return res;
-}
-const num = add(1, 8);
-console.log(`result: ${num}`);
+const toCapital = function (str) {
+  const firstChar = str[0];
+  const leftover = str.slice(1);
+  const capitalFirstLetter = firstChar.toUpperCase();
+  const lowerLeftover = leftover.toLowerCase();
+  const result = capitalFirstLetter + lowerLeftover;
+  return result;
+};
+console.log(toCapital("саша"));
