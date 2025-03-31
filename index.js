@@ -1,5 +1,4 @@
-const milesToKilometers = (miles)=>{
-    const result = miles*1.609344
-    return result
-}
-console.log(milesToKilometers(1))
+const milesToKilometers = (miles) => miles * 1.609344;
+console.log(milesToKilometers(1));
+
+
