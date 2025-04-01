@@ -4,8 +4,14 @@
 // const cToF = (c) => c * 1.8 + 32;
 // console.log(cToF(12));
 
-const switchTemp = (deg, scale) =>
-  scale === "c" ? deg * 1.8 + 32 : (deg - 32) / 1.8;
+// const switchTemp = (deg, scale) =>
+//   scale === "c" ? deg * 1.8 + 32 : (deg - 32) / 1.8;
 
-console.log(switchTemp(-40, "c"));
-console.log(switchTemp(-40, "f"));
+// console.log(switchTemp(-40, "c"));
+// console.log(switchTemp(-40, "f"));
+const str = 'i love JS';
+const sliced = str.slice(3);
+const repl = sliced.replace('j'. '4')
+const upper = repl.toUpperCase()
+console.log(upper);
+
