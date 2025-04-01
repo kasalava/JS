@@ -9,9 +9,6 @@
 
 // console.log(switchTemp(-40, "c"));
 // console.log(switchTemp(-40, "f"));
-const str = 'i love JS';
-const sliced = str.slice(3);
-const repl = sliced.replace('j'. '4')
-const upper = repl.toUpperCase()
-console.log(upper);
+const str = "i love JS".slice(3).replace('j','4').toUpperCase();
+console.log(str);
 
