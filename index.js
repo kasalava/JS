@@ -11,6 +11,6 @@
 // console.log(switchTemp(-40, "f"));
 // const str = "i love JS".slice(3).replace('j','4').toUpperCase();
 // console.log(str);
-for(let  i = 0; i < 7; i++){
-    console. log(i)
+for (let i = 0; i < 7; i++) {
+  console.log(i);
 }
