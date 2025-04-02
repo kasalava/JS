@@ -1,16 +1,12 @@
-// const milesToKilometers = (miles) => miles * 1.609344;
-// console.log(milesToKilometers(1));
-
-// const cToF = (c) => c * 1.8 + 32;
-// console.log(cToF(12));
-
-// const switchTemp = (deg, scale) =>
-//   scale === "c" ? deg * 1.8 + 32 : (deg - 32) / 1.8;
-
-// console.log(switchTemp(-40, "c"));
-// console.log(switchTemp(-40, "f"));
-// const str = "i love JS".slice(3).replace('j','4').toUpperCase();
-// console.log(str);
-for (let i = 0; i < 7; i++) {
-  console.log(i);
+function countSpaces(text) {
+  //ф-я принимает аргумент(текст)
+  let counter = 0; //счетчик с 0
+  for (let i = 0; i < text.length; i++) {
+    /*кол-во пробелов не должно быть больше длины текста
+                                     счетчик увеличивается на 1 */
+    const letter = text[i]; //получаем букву из текста
+    if(letter === ' ') counter++; //если буква пробел, то счетчик увеличиваем на 1
+  }
+  return counter;
 }
+console.log(countSpaces('z fjfj  kfkk fjfj  kjf  f     ')); //вызываем ф-ю
