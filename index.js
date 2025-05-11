@@ -1,8 +1,5 @@
-function greet(name){
-    if(name===undefined) console.log(`привет!`)
-    else console.log(`привет ${name}`)
+function add (num1, num2){
+const res = num1+num2
+console.log(res)
 }
-
-
-
-greet('саша')
+add (1,2)
