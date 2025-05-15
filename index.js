@@ -1,24 +1,5 @@
+//arrow function
+const milesToKilometers = (miles)=> miles*1.609344 //возвращаем результат из ф-ии
 
-const toCapital = function (str) {
-    try{//блок трай кэч - запускает блок кода
-  const firstChar = str[0]; 
-  const leftover = str.slice(1); 
-  const capitalFirstLetter = firstChar.toUpperCase(); 
-  const lowerLeftover = leftover.toLowerCase();
-  const result = capitalFirstLetter + lowerLeftover; 
-  return result; 
-    }catch(err){ 
-        console.log('произошла ошибка')//делаем с ошибкой чтото, например выводим сообщение об ошибке
-        return('') //всегда оборачиваем ф-ю в тарй кэч
-
-    }
-}
-
-console.log(toCapital('саша')) 
-console.log(toCapital('ЛЕША'))
-console.log(toCapital('иГорЬ'))
-console.log(toCapital(''))
-console.log(toCapital('риА'))
-
-
- 
+console.log(milesToKilometers(2))
+console.log(milesToKilometers(4))
