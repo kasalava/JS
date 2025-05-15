@@ -1,5 +1,10 @@
-//arrow function
-const milesToKilometers = (miles)=> miles*1.609344 //возвращаем результат из ф-ии
-
-console.log(milesToKilometers(2))
-console.log(milesToKilometers(4))
+const switchTempature = (deg, scale)=>{
+    if (scale === 'C') {
+        return deg*1.8+32
+    } else if (scale ==='F'){
+    return (deg-32)/1.8
+}    else {return NaN
+    }
+}
+console.log(switchTempature(0, 'C'))
+console.log(switchTempature(0, 'F'))
