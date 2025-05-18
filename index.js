@@ -1,3 +1,9 @@
-for(let i = 0; i < 7; i++){ //условия работы цикла: задаем переменную i; ставим ей условие; что будет происхлдить каждую итерацию цикла (к i будет прибавляться 1), затем цикл будет выполять действие в фигурных скобках
-console.log('счетчик', i)
+function countSpaces(text){
+    let counter = 0
+    for(let i = 0; i<text.length; i++){
+        const letter = text[i]
+        if(letter ===' ')counter++
+    }
+    return counter
 }
+console.log(countSpaces('алла  алдад fjfjf k ала ал адааа ааа'))
