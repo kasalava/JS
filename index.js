@@ -7,3 +7,4 @@ function countSpaces(text){
     return counter
 }
 console.log(countSpaces('алла  алдад fjfjf k ала ал адааа ааа'))
+
